@@ -11,6 +11,7 @@ export default function Header() {
           <span className="logo-2">O</span>
           <span className="logo-3">T</span>
           <span className="logo-4">A</span>
+          <span className="logo-4">S</span>
         </Link>
 
         <div className='search-bar'>

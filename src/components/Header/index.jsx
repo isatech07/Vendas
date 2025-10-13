@@ -11,8 +11,8 @@ export default function Header() {
           <span className="logo-2">O</span>
           <span className="logo-3">T</span>
           <span className="logo-4">A</span>
-          <span className="logo-4">S</span>
         </Link>
+        </div>
 
         <div className='search-bar'>
             <input type='text' placeholder='Buscar Apartamento'/>
@@ -22,7 +22,19 @@ export default function Header() {
                 </button>
             </div>
         </div>
-      </div>
+      
+
+      {/* Botões*/ }
+        <nav className="navbar">
+          <ul>
+            <li>
+              <Link to='/Signin' className='entrarBtn'>Entrar</Link>
+            </li>
+            <li>
+              <Link to='/' className='anunciarBtn'>Anunciar Grátis</Link>
+            </li>
+          </ul>
+        </nav>
     </header>
   )
 }
